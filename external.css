@@ -1,0 +1,84 @@
+.box {
+    background-color: rgb(132, 187, 121);
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    z-index: 1;
+}
+
+#rectangle {
+    background-color: rgb(219, 219, 138);
+    height: 500px;
+    width: 1210px;
+    display: inline-block;
+    flex-direction: row;
+    z-index: 1;
+}
+
+.dot {
+    background-color: orange;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    bottom: 700px;
+    left: 20px;
+}
+
+.dot2 {
+    background-color: rgb(204, 107, 62);
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+    bottom: 600px;
+    left: 40px;
+}
+
+.dot3 {
+    background-color: rgb(133, 101, 34);
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+    z-index: 4;
+    position: relative;
+    bottom: 750px;
+    left: 200px;
+}
+
+.dot4 {
+    background-color: rgba(216, 163, 66, 0.849);
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+    z-index: 5;
+    position: relative;
+    bottom: 880px;
+    left: 450px;
+}
